@@ -1,5 +1,21 @@
+@font-face {
+    font-family: retro;
+    src: url(Font/retro.ttf);
+ }
+
+
 .intro{
-    background-color: red;
     text-align: center;
-    color: white;
+    font-family: retro;
+    margin-top: 80px;
+}
+
+.nav-bar{
+    text-align: center;
+}
+
+
+ul{
+    display: inline;
+    font-family: retro;
 }
