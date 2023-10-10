@@ -3,6 +3,12 @@
     src: url(Font/retro.ttf);
  }
 
+ ul
+ {
+   display: inline;
+   float: right;
+
+ }
 
 .intro{
     text-align: center;
