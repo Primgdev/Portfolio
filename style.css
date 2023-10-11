@@ -1,13 +1,21 @@
+/* font import */
 @font-face {
     font-family: retro;
     src: url(Font/retro.ttf);
  }
 
+ /* variable color palette */
+:root{
+
+  --background: black;
+  --text: white;
+}
+
  html
  {
   max-width: 800px;
   margin: auto;
-  background: black;
+  background: var(--background);
   padding: 20px;
   border: 2px solid red;
  }
@@ -31,12 +39,12 @@
     padding: 18px;
     margin: 20px;
     text-decoration: none;
-    color: white;
+    color: var(--text);
     font-family: retro;
   }
 .intro{
   margin-top: 200px;
-    color: white;
+    color: var(--text);
     text-align: left;
     font-family: retro;
     
