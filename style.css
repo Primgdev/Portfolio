@@ -18,8 +18,15 @@
   background: var(--background);
   padding: 20px;
   border: 2px solid red;
+ 
  }
 
+ head{
+  background-image: url("images/pritam.jpg");
+  background-size: 800px;
+  background-position-y: center;
+
+ }
  
  ul {
     margin: 0;
@@ -47,6 +54,16 @@
     color: var(--text);
     text-align: left;
     font-family: retro;
-    
+   
+  
 }
 
+.contact
+{
+  border: 2px solid white;
+  background: transparent;
+  color: var(--text);
+  padding: 10px;
+  margin: 10px;
+  font-family: retro;
+}
