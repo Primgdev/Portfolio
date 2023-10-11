@@ -3,18 +3,42 @@
     src: url(Font/retro.ttf);
  }
 
- ul
+ html
  {
-   display: inline;
-   float: right;
-
+  max-width: 800px;
+  margin: auto;
+  background: black;
+  padding: 20px;
+  border: 2px solid red;
  }
 
-.intro{
+ 
+ ul {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
     text-align: center;
+  
+  }
+  
+  li {
+    display: inline-block;
+    
+  }
+  
+  li a {
+    
+    padding: 18px;
+    margin: 20px;
+    text-decoration: none;
+    color: white;
+    font-family: retro;
+  }
+.intro{
+  margin-top: 200px;
+    color: white;
+    text-align: left;
     font-family: retro;
     
 }
-
-
 
