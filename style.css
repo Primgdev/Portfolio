@@ -85,12 +85,12 @@
 .column {
   float: left;
   width: 25%;
+  height: 25%;
   padding: 15px;
   border: 1px solid black;
   margin:10px;
-  background-color: white;
-  ima
- 
+  background-color: grey;
+  border-radius: 10px;
 }
 
 /* Clearfix (clear floats) */
@@ -99,4 +99,9 @@
   clear: both;
   display: table;
  
+}
+.img
+{
+  width: 80%;
+ margin-left: 20px;
 }
