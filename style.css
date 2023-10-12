@@ -22,7 +22,7 @@
  }
 
  head{
-  background-image: url("images/pritam.jpg");
+  background-image: url("images/dog.png");
   background-size: 800px;
   background-position-y: center;
 
@@ -66,4 +66,37 @@
   padding: 10px;
   margin: 10px;
   font-family: retro;
+  border-radius: 5px;
+}
+
+.about
+{
+  color: var(--text);
+  font-family: retro;
+  margin-top: 100px;
+}
+
+.about_text
+{
+  text-align: center;
+}
+
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 15px;
+  border: 1px solid black;
+  margin:10px;
+  background-color: white;
+  ima
+ 
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+ 
 }
