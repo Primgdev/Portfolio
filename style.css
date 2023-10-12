@@ -1,14 +1,16 @@
 /* font import */
 @font-face {
     font-family: retro;
-    src: url(Font/retro.ttf);
+    src: url(Font/Gilgan.otf);
  }
 
  /* variable color palette */
 :root{
 
-  --background: black;
-  --text: white;
+  --background: #31333B;
+  --text:#F8F8F9;
+  --highlight:#F0BF6C;
+  --button:#3D3E42;
 }
 
  html
@@ -82,15 +84,28 @@
 }
 
 
+.skill
+{
+  color: var(--text);
+  font-family: retro;
+  margin-top: 100px;
+  text-align: center;
+}
+
+
 .column {
   float: left;
   width: 25%;
-  height: 25%;
+  height: 20%;
   padding: 15px;
-  border: 1px solid black;
   margin:10px;
-  background-color: grey;
+  background-color: var(--button);
   border-radius: 10px;
+}
+
+.column:hover
+{
+  background-color:var(--highlight);
 }
 
 /* Clearfix (clear floats) */
@@ -102,6 +117,15 @@
 }
 .img
 {
-  width: 80%;
- margin-left: 20px;
+  width: 50%;
+ margin-left: 50px;
+ margin-top: 20px;
+}
+
+.name
+{
+  text-align: center;
+  margin-top: 30px;
+  font-weight: bold;
+  color: var(--text);
 }
