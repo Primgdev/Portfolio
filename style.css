@@ -2,6 +2,7 @@
 @font-face {
     font-family: retro;
     src: url(Font/Gilgan.otf);
+  
  }
 
  /* variable color palette */
@@ -19,7 +20,7 @@
   margin: auto;
   background: var(--background);
   padding: 20px;
-  border: 2px solid red;
+  
  
  }
 
@@ -62,13 +63,14 @@
 
 .contact
 {
-  border: 2px solid white;
+  border: 2px solid var(--highlight);
   background: transparent;
-  color: var(--text);
+  color: var(--highlight);
   padding: 10px;
   margin: 10px;
   font-family: retro;
   border-radius: 5px;
+  
 }
 
 .about
@@ -97,8 +99,8 @@
 
 .column {
   float: left;
-  width: 25%;
-  height: 23%;
+  width: 18.50%;
+  height: 21%;
   padding: 15px;
   margin:10px;
   background-color: var(--button);
@@ -119,7 +121,7 @@
 }
 .img
 {
-  width: 100px;
+  width: 80px;
  margin-top: 20px;
 }
 
