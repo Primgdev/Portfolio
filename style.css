@@ -23,13 +23,6 @@
   
  
  }
-
- head{
-  background-image: url("images/dog.png");
-  background-size: 800px;
-  background-position-y: center;
-
- }
  
  ul {
     margin: 0;
@@ -61,14 +54,16 @@
   
 }
 
+
 .contact
 {
-  border: 2px solid var(--highlight);
+  border: 3px solid var(--highlight);
   background: transparent;
   color: var(--highlight);
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
   font-family: retro;
+  font-size: 18px;
   border-radius: 5px;
   
 }
@@ -100,7 +95,6 @@
 .column {
   float: left;
   width: 18.50%;
-  height: 21%;
   padding: 15px;
   margin:10px;
   background-color: var(--button);
