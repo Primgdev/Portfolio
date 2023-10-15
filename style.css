@@ -278,7 +278,7 @@
 
 .main {
   width: 532px;
-  height: 20%;
+  height: 15%;
   margin-left: auto;
   border-radius: 5px;
   position: relative;
@@ -342,9 +342,9 @@ h3{
   color: var(--text);
 }
 
-p {
+.detail {
   padding-left: 30px;
-}
+} 
 
 .experience {
  
