@@ -41,8 +41,14 @@
     margin: 20px;
     text-decoration: none;
     color: var(--text);
-    font-family: retro;
+    font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     display: block;
+  }
+
+  li a:hover
+  {
+    color: var(--highlight);
+    transform: scale(1.1);
   }
 
 .logo img
@@ -55,10 +61,11 @@
 
 .intro{
   margin-top: 200px;
+  margin-left: 30px;
     color: var(--text);
     text-align: left;
-    font-family: retro;
-   
+    font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: 2px;
   
 }
 
@@ -66,7 +73,8 @@
 {
   border-radius: 5px;
   padding:10px;
-  box-shadow: 0px 0px 10px 0px rgb(255, 255, 255); 
+  background-color: var(--button);
+  box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
 }
 
 .social
@@ -154,25 +162,34 @@
   border: 3px solid var(--highlight);
   background: transparent;
   color: var(--highlight);
-  padding: 15px;
+  padding: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 10px;
-  font-family: retro;
+  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px;
   border-radius: 5px;
-  
+  text-align: center;
+  display: inline-block;
+  cursor: pointer;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  transition-duration: 0.4s;
 }
 
+
 .vl {
-  border-left: 3px solid var(--highlight);
+  border-left: 2px solid var(--highlight);
   height: 60px;
   position: absolute;
   left: 94%;
 }
 
+
+
 .about
 {
   color: var(--text);
-  font-family: retro;
+  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-top: 100px;
 }
 
@@ -188,7 +205,7 @@
 .skill
 {
   color: var(--text);
-  font-family: retro;
+  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   margin-top: 100px;
   text-align: center;
 }
@@ -196,7 +213,7 @@
 
 .column {
   float: left;
-  width: 18.50%;
+  width: 19.80%;
   padding: 15px;
   margin:10px;
   background-color: var(--button);
@@ -226,5 +243,125 @@
   text-align: center;
   margin-top: 40px;
   font-weight: bold;
+  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   color: var(--text);
+}
+
+/* .experience
+{
+  background-color: var(--button);
+  padding:10px;
+  border-radius: 5px;
+  color: var(--text);
+} */
+
+
+
+.container {
+  width: 677px;
+  margin: 0px auto 0px auto;
+  position: relative;
+  padding-bottom: 30px;
+
+}
+
+.container::before {
+  content: "";
+  display: block;
+  width: 3px;
+  background-color: white;
+  top: 35px;
+  bottom: 0;
+  left: 119px;
+  position: absolute;
+}
+
+.main {
+  width: 532px;
+  height: 20%;
+  margin-left: auto;
+  border-radius: 5px;
+  position: relative;
+  top: 0px;
+}
+
+
+
+.aside {
+  width: 14.5%;
+  height: 100%;
+  margin-right: auto;
+  text-align: right;
+  position: absolute;
+  top: 0px;
+}
+
+.date {
+  color: var(--text);
+  font-size: 25px;
+  position: relative;
+}
+
+.date::before {
+  content: "";
+  height: 0;
+  width: 0;
+  border-radius: 37px;
+  position: absolute;
+  left: 105.4px;
+  top: -2px;
+  z-index: -1;
+}
+
+.date::after {
+  content: "";
+  height: 0;
+  width: 0;
+  border: 11px solid var(--highlight);
+  box-shadow: 0 0 30px 5px var(--highlight);
+  border-radius: 37px;
+  position: absolute;
+  left: 109.4px;
+  top: 2px;
+  z-index: 0;
+}
+
+p {
+  color: #b8b8b8;
+}
+
+h2 {
+ padding-left: 30px;
+ font-size: 30px;
+  font-weight: bold;
+  color: var(--text);
+}
+h3{
+  padding-left: 30px;
+  font-size: 20px;
+  color: var(--text);
+}
+
+p {
+  padding-left: 30px;
+}
+
+.experience {
+ 
+  position: relative;
+  padding: 50px;
+  background-color: var(--button);
+  border-radius: 5px;
+  color: var(--text);
+
+}
+
+.experience> .title {
+  color: var(--text);
+  padding: 0 10px;
+  position: absolute;
+  top: 0;
+  left: 30px;
+  font-size: 18px;
+  transform: translateY(-50%);
 }
