@@ -407,32 +407,8 @@ h2 {
 }
 
 
-.hori_contact
-{
-  display: flex;
-  flex-direction: row;
-  color: var(--text);
-}
 
-.hori_contact::before, .hori_contact::after
-{
-  content: "";
-  flex: 1 1;
-  border-bottom: 2px solid var(--highlight);
- margin: auto;
 
-}
-
-.hori_contact::before
-{
-  margin-right:10px;
-
-}
-.hori_contact::after
-{
-  margin-left:10px;
-
-}
 
 .contact_detail
 {
@@ -452,13 +428,15 @@ h2 {
 
 .contact_me
 {
-  background-color: var(--button);
+  
   text-align: center;
+  border-radius: 5px;
+  color: var(--text);
   position: relative;
   padding: 50px;
   background-color: var(--button);
-  border-radius: 5px;
-  color: var(--text);
+
+
 }
 
 .contact_me > .title {
@@ -466,9 +444,48 @@ h2 {
   padding: 0 10px;
   position: absolute;
   top: 0;
-  left: 30px;
+  left: 400px;
   font-size: 18px;
   transform: translateY(-50%);
+  border-bottom: 2px solid var(--highlight);
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 20px;
 }
 
 
+
+
+.end
+{
+  color: var(--highlight);
+  text-align: center;
+  margin:50px;
+  font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  
+}
+
+.end
+{
+  display: flex;
+  flex-direction: row;
+  color: var(--text);
+}
+
+.end::before, .end::after
+{
+  content: "";
+  flex: 1 1;
+  border-bottom: 2px solid var(--highlight);
+ margin: auto;
+
+}
+
+.end::before
+{
+  margin-right:10px;
+
+}
+.end::after
+{
+  margin-left:10px;
+}
