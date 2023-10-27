@@ -450,6 +450,7 @@ h2 {
   left: 400px;
   font-size: 18px;
   transform: translateY(-50%);
+
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
