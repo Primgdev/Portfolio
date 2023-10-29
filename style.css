@@ -500,10 +500,30 @@ color: var(--text);
 margin-bottom: 300px;
 }
 
-.slide
-{
-  display: none;
+.row_portfolio {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 100px;
 }
+
+.column_portfolio {
+  -ms-flex: 50%; /* IE10 */
+  flex: 50%;
+  max-width: 40%;
+  padding: 0 10px;
+
+}
+
+.column_portfolio img {
+  margin-top: 20px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+
 
 @media screen and (max-device-width:450px) 
 {
