@@ -493,6 +493,18 @@ h2 {
   margin-left:10px;
 }
 
+.portfolio
+{
+  text-align: center;
+color: var(--text);
+margin-bottom: 300px;
+}
+
+.slide
+{
+  display: none;
+}
+
 @media screen and (max-device-width:450px) 
 {
 
