@@ -507,12 +507,15 @@ margin-bottom: 300px;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 100px;
+  padding-bottom: 20px;
+  border: 2px dashed var(--highlight);
+
 }
 
 .column_portfolio {
   -ms-flex: 50%; /* IE10 */
   flex: 50%;
-  max-width: 40%;
+  max-width: 48%;
   padding: 0 10px;
 
 }
