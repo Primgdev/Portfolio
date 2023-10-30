@@ -523,6 +523,11 @@ margin-bottom: 300px;
   width: 100%;
 }
 
+.row_portfolio:hover
+{
+  transition: margin 0.2s ease-in-out;
+}
+
 
 
 @media screen and (max-device-width:450px) 
