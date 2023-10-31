@@ -517,6 +517,7 @@ margin-bottom: 300px;
   flex: 50%;
   max-width: 48%;
   padding: 0 10px;
+  position: relative;
   
 }
 
@@ -528,6 +529,17 @@ margin-bottom: 300px;
   box-shadow: 2px 3px 4px rgba(255, 255, 255, 0.5);
   
 }
+
+
+.port_img:hover
+{
+  content: "Welcome to our Blog";
+
+
+}
+
+
+
 
 
 
