@@ -508,7 +508,7 @@ margin-bottom: 300px;
   justify-content: center;
   margin-bottom: 100px;
   padding-bottom: 20px;
-  border: 2px dashed var(--highlight);
+ 
 
 }
 
@@ -517,18 +517,16 @@ margin-bottom: 300px;
   flex: 50%;
   max-width: 48%;
   padding: 0 10px;
-
+  
 }
 
 .column_portfolio img {
   margin-top: 20px;
   vertical-align: middle;
   width: 100%;
-}
-
-.row_portfolio:hover
-{
-  transition: margin 0.2s ease-in-out;
+  border-radius: 5px;
+  box-shadow: 2px 3px 4px rgba(255, 255, 255, 0.5);
+  
 }
 
 
