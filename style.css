@@ -386,7 +386,6 @@ h2 {
 
 .work
 {
-  list-style-position: outside;
   list-style: square;
   text-align: left;
   font-family:"acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif ;
@@ -422,7 +421,7 @@ h2 {
   padding:20px;
   font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 20px;
-  background-color: var(--background);
+  background-color: var(--button);
   color: var(--highlight);
   border-radius: 20px;
   display: inline-block;
@@ -431,13 +430,13 @@ h2 {
 
 .contact_me
 {
-  
+  margin-top:80px;
   text-align: center;
   border-radius: 5px;
   color: var(--text);
   position: relative;
   padding: 50px;
-  background-color: var(--button);
+  
 
 
 }
@@ -450,7 +449,6 @@ h2 {
   left: 400px;
   font-size: 18px;
   transform: translateY(-50%);
-
   border-bottom-right-radius: 20px;
   border-bottom-left-radius: 20px;
 }
@@ -462,7 +460,6 @@ h2 {
 {
   color: var(--highlight);
   text-align: center;
-  margin:50px;
   font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
   
 }
@@ -537,6 +534,7 @@ margin-bottom: 300px;
 
 
 }
+
 
 
 
