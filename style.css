@@ -586,4 +586,33 @@ margin-bottom: 300px;
   left: 95%;
 }
 
+.intro h4
+{
+  font-size: 30px;
+}
+
+.intro h3
+{
+  font-size: 30px;
+}
+.intro h1 
+{
+  font-size: 40px;
+}
+
+.main h2
+{
+  font-size: 30px;
+}
+
+.size{
+  font-size: 25px;
+}
+
+li
+{
+  font-size: 20px;
+  line-height: 32px;
+}
+
 }
