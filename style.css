@@ -528,17 +528,6 @@ margin-bottom: 300px;
 }
 
 
-.port_img:hover
-{
-  content: "Welcome to our Blog";
-
-
-}
-
-
-
-
-
 
 
 @media screen and (max-device-width:450px) 
@@ -613,7 +602,7 @@ li
 {
   font-size: 20px;
   line-height: 32px;
-  color:white;
+  
 }
 
 }
