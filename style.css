@@ -66,8 +66,9 @@
     text-align: left;
     font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 2px;
-   background: url('images/background.png');
-   background: width 100px;
+  background-image: url('images/background.png');
+  background-repeat: none;
+  background-size: contain;
   
 }
 
