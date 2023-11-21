@@ -43,6 +43,7 @@
     color: var(--text);
     font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     display: block;
+    font-size:18px;
   }
 
   li a:hover
@@ -76,7 +77,7 @@
   padding:10px;
   background-color: var(--button);
   box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
-  background-image: url('images/IMG_3366.png');
+  background-image: url('images/Pixel\ Glitch\ GIF\ -\ Find\ &\ Share\ on\ GIPHY.html');
   background-repeat: none;
   object-fit: fill;
 }
