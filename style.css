@@ -66,9 +66,7 @@
     text-align: left;
     font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
     letter-spacing: 2px;
-  background-image: url('images/background.png');
-  background-repeat: none;
-  background-size: contain;
+ 
   
 }
 
@@ -78,6 +76,9 @@
   padding:10px;
   background-color: var(--button);
   box-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+  background-image: url('images/IMG_3366.png');
+  background-repeat: none;
+  object-fit: fill;
 }
 
 .social
