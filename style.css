@@ -55,8 +55,8 @@
 .logo img
 {
   position: absolute;
-  width: 100px;
-  float: left;
+  width: 120px;
+  display: inline-block;
 
 }
 
