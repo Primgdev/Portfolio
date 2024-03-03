@@ -52,9 +52,8 @@
 </head>
 
 <body>
-  <div >
-    <i id="spinner" class="fa fa-circle-o-notch fa-spin" style="font-size:100px; position: fixed; left: 0px; right:0px; text-align: center; color:white;"></i>
-  </div>
+  <div id="loader"></div>
+
 
   <!-- ABOUT SECTION -->
   <div class="about">
@@ -247,13 +246,13 @@
   }
 </style>
 <script>
-  window.onload = function (e) {
-    // if(window.onload){
-    //   var spinner = document.getElementById("spinner");
-    //   spinner.addClass('hidden');
-    // }
-   
-    $('#spinner').addClass('hidden');
-  }
+  setTimeout(function() {    
+    fullyLoaded();
+    }, 100);
+
+function fullyLoaded() {
+    $("#loader").fadeOut("slow");
+}
+  
 
 </script>
