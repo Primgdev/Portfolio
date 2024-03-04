@@ -1,75 +1,62 @@
 /* font import */
 @font-face {
-    font-family: retro;
-    src: url(Font/Gilgan.otf);
-  
- }
-
- /* variable color palette */
-:root{
-
-  --background: #31333B;
-  --text:#F8F8F9;
-  --highlight:#F0BF6C;
-  --button:#3D3E42;
+  font-family: retro;
+  src: url(Font/Gilgan.otf);
 }
 
- html
- {
+/* variable color palette */
+:root {
+  --background: #31333b;
+  --text: #f8f8f9;
+  --highlight: #f0bf6c;
+  --button: #3d3e42;
+}
+
+html {
   max-width: 1000px;
   margin: auto;
   background: var(--background);
+}
 
- }
+ul {
+  overflow: hidden;
+  text-align: center;
+}
 
+li {
+  display: inline-block;
+}
 
- 
- ul {
+li a {
+  padding: 20px;
+  margin: 20px;
+  text-decoration: none;
+  color: var(--text);
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  display: block;
+  font-size: 18px;
+}
 
-    overflow: hidden;
-    text-align: center;
-  
-  }
-  
-  li {
-    display: inline-block;
-    
-  }
-  
-  li a {
-    
-    padding: 20px;
-    margin: 20px;
-    text-decoration: none;
-    color: var(--text);
-    font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    display: block;
-    font-size:18px;
-  }
+li a:hover {
+  color: var(--highlight);
+  transform: scale(1.1);
+}
 
-  li a:hover
-  {
-    color: var(--highlight);
-    transform: scale(1.1);
-  }
-
-.logo img
-{
+.logo img {
   position: absolute;
   width: 120px;
   display: inline-block;
-
 }
 
-.intro{
+.intro {
   margin-top: 200px;
   margin-left: 30px;
-    color: var(--text);
-    text-align: left;
-    font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-    letter-spacing: 2px;
- 
-  
+  color: var(--text);
+  text-align: left;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
+  letter-spacing: 2px;
 }
 
 #background-video {
@@ -82,21 +69,18 @@
   top: 0;
   bottom: 0;
   z-index: -1;
-
 }
 
-.top
-{
+.top {
   border-radius: 5px;
-  padding:10px;
+  padding: 10px;
   background-color: var(--button);
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-repeat: none;
   object-fit: fill;
 }
 
-.social
-{
+.social {
   transform: translateY(-50%);
   width: 100%;
   text-align: center;
@@ -105,12 +89,12 @@
 .btn {
   display: block;
   left: 90%;
-  width:40px;
+  width: 40px;
   margin: 20px;
   border-radius: 100%;
   border: 0.5px solid var(--text);
   background-color: transparent;
-  box-shadow:-5px 5px 15px -5px var(--highlight); 
+  box-shadow: -5px 5px 15px -5px var(--highlight);
   overflow: hidden;
   position: relative;
   transition: 0.3s linear;
@@ -123,15 +107,15 @@
 }
 
 .btn:nth-child(1) i {
-  color:#6e5494
+  color: #6e5494;
 }
 
 .btn:nth-child(2) i {
-  color:#0077b5;
+  color: #0077b5;
 }
 
 .btn:nth-child(3) i {
-  color:#25d366;
+  color: #25d366;
 }
 
 #loader {
@@ -141,16 +125,13 @@
   width: 100%;
   height: 100%;
   z-index: 9999;
-text-align: center;
+  text-align: center;
   background: no-repeat rgba(0, 0, 0, 0.8);
-vertical-align: middle;
-
-
+  vertical-align: middle;
 }
 
 .hidden {
   display: none;
-
 }
 
 .btn:hover {
@@ -163,17 +144,17 @@ vertical-align: middle;
 }
 
 .btn:before {
-  content:"";
-  position:absolute;
-  width:120%;
-  height:120%;
+  content: "";
+  position: absolute;
+  width: 120%;
+  height: 120%;
   transform: rotate(45deg);
   left: -110%;
-  top:90%;
+  top: 90%;
 }
 
 .btn:nth-child(1)::before {
-  background:#6e5494;
+  background: #6e5494;
 }
 
 .btn:nth-child(2)::before {
@@ -184,16 +165,13 @@ vertical-align: middle;
   background: #25d366;
 }
 
-
-
 .btn:hover::before {
   animation: aaa 0.7s 1;
   top: -10%;
   left: -10%;
 }
 
-.contact
-{
+.contact {
   border: 3px solid var(--highlight);
   background: transparent;
   color: var(--highlight);
@@ -201,16 +179,16 @@ vertical-align: middle;
   padding-left: 15px;
   padding-right: 15px;
   margin: 10px;
-  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: 18px;
   border-radius: 5px;
   text-align: center;
   display: inline-block;
   cursor: pointer;
-  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   transition-duration: 0.4s;
 }
-
 
 .vl {
   border-left: 2px solid var(--highlight);
@@ -219,48 +197,41 @@ vertical-align: middle;
   left: 94%;
 }
 
-
-
-.about
-{
+.about {
   color: var(--text);
-  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   margin-top: 100px;
   margin-left: 30px;
   margin-right: 30px;
-  
 }
 
-.about_text
-{
+.about_text {
   text-align: center;
   letter-spacing: 1.2px;
   line-height: 150%;
-  margin-top:50px;
+  margin-top: 50px;
 }
 
-
-.skill
-{
+.skill {
   color: var(--text);
-  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   margin-top: 100px;
   text-align: center;
 }
-
 
 .column {
   float: left;
   width: 22.99%;
   padding: 15px;
-  margin:10px;
+  margin: 10px;
   background-color: var(--button);
   border-radius: 10px;
 }
 
-.column:hover
-{
-  background-color:var(--highlight);
+.column:hover {
+  background-color: var(--highlight);
 }
 
 /* Clearfix (clear floats) */
@@ -268,28 +239,26 @@ vertical-align: middle;
   content: "";
   clear: none;
   display: table;
- 
 }
-.img
-{
+.img {
   width: 80px;
- margin-top: 20px;
+  margin-top: 20px;
 }
 
-.img:hover{
-  z-index:1;
-    transform:rotate(6deg) scale(1.50);
-    -webkit-transform:rotate(6deg) scale(1.50);
-    -moz-transform:rotate(6deg) scale(1.50);
-    -ms-transform:rotate(6deg) scale(1.50);
+.img:hover {
+  z-index: 1;
+  transform: rotate(6deg) scale(1.5);
+  -webkit-transform: rotate(6deg) scale(1.5);
+  -moz-transform: rotate(6deg) scale(1.5);
+  -ms-transform: rotate(6deg) scale(1.5);
 }
 
-.name
-{
+.name {
   text-align: center;
   margin-top: 40px;
   font-weight: bold;
-  font-family:  "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   color: var(--text);
 }
 
@@ -301,14 +270,11 @@ vertical-align: middle;
   color: var(--text);
 } */
 
-
-
 .container {
   width: 677px;
   margin: 0px auto 0px auto;
   position: relative;
   padding-bottom: 30px;
-
 }
 
 .container::before {
@@ -322,15 +288,14 @@ vertical-align: middle;
   position: absolute;
 }
 
-.size
-{
+.size {
   font-size: 21px;
- line-height: 40px;
+  line-height: 40px;
 }
 
 .main {
   width: 532px;
-  height: inherit;  /*inherit to adjust height on the length of text */
+  height: inherit; /*inherit to adjust height on the length of text */
   padding-bottom: 55px;
   margin-left: auto;
   border-radius: 5px;
@@ -338,10 +303,8 @@ vertical-align: middle;
   top: 0px;
   letter-spacing: 1.2px;
   line-height: 150%;
-  color: #b8b8b8;;
+  color: #b8b8b8;
 }
-
-
 
 .aside {
   width: 14.5%;
@@ -356,7 +319,6 @@ vertical-align: middle;
   color: var(--text);
   font-size: 22px;
   position: relative;
-
 }
 
 .date::before {
@@ -388,28 +350,25 @@ p {
 }
 
 h2 {
- padding-left: 30px;
- font-size: 30px;
+  padding-left: 30px;
+  font-size: 30px;
   font-weight: bold;
   color: var(--text);
 }
 
-
 .detail {
   padding-left: 30px;
-} 
+}
 
 .experience {
- 
   position: relative;
   padding: 50px;
   background-color: var(--button);
   border-radius: 5px;
   color: var(--text);
-
 }
 
-.experience> .title {
+.experience > .title {
   color: var(--text);
   padding: 0 10px;
   position: absolute;
@@ -419,62 +378,53 @@ h2 {
   transform: translateY(-50%);
 }
 
-.work
-{
+.work {
   list-style: square;
   text-align: left;
-  font-family:"acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif ;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
 @keyframes pulse {
-	0% {
-		transform: scale(0.85);
+  0% {
+    transform: scale(0.85);
     box-shadow: 0 0 30px 5px var(--highlight);
-	}
+  }
 
-	70% {
-		transform: scale(1);
+  70% {
+    transform: scale(1);
     box-shadow: 0 0 30px 5px var(--highlight);
-	}
+  }
 
-	100% {
-		transform: scale(0.85);
+  100% {
+    transform: scale(0.85);
     box-shadow: 0 0 30px 5px var(--highlight);
-	}
+  }
 }
 
-
-
-
-
-.contact_detail
-{
+.contact_detail {
   width: 70px;
   height: 60px;
   text-align: center;
-  margin:20px;
-  padding:20px;
-  font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
+  margin: 20px;
+  padding: 20px;
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
   font-size: 20px;
   background-color: var(--button);
   color: var(--highlight);
   border-radius: 20px;
   display: inline-block;
   text-decoration: none;
-
 }
 
-.contact_me
-{
-  margin-top:80px;
+.contact_me {
+  margin-top: 80px;
   text-align: center;
   border-radius: 5px;
   color: var(--text);
   position: relative;
   padding: 50px;
-  
-
-
 }
 
 .contact_me > .title {
@@ -489,47 +439,37 @@ h2 {
   border-bottom-left-radius: 20px;
 }
 
-
-
-
-.end
-{
+.end {
   color: var(--highlight);
   text-align: center;
-  font-family: "acumin-pro","Acumin Pro","Helvetica Neue",Helvetica,Arial,sans-serif;
-  
+  font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
+    sans-serif;
 }
 
-.end
-{
+.end {
   display: flex;
   flex-direction: row;
   color: var(--text);
 }
 
-.end::before, .end::after
-{
+.end::before,
+.end::after {
   content: "";
   flex: 1 1;
   border-bottom: 2px solid var(--highlight);
- margin: auto;
-
+  margin: auto;
 }
 
-.end::before
-{
-  margin-right:10px;
-
+.end::before {
+  margin-right: 10px;
 }
-.end::after
-{
-  margin-left:10px;
+.end::after {
+  margin-left: 10px;
 }
 
-.portfolio
-{
+.portfolio {
   text-align: center;
-color: var(--text);
+  color: var(--text);
 }
 
 .row_portfolio {
@@ -540,8 +480,6 @@ color: var(--text);
   justify-content: center;
   margin-bottom: 100px;
   padding-bottom: 20px;
- 
-
 }
 
 .column_portfolio {
@@ -550,7 +488,6 @@ color: var(--text);
   max-width: 48%;
   padding: 0 10px;
   position: relative;
-  
 }
 
 .column_portfolio img {
@@ -559,85 +496,81 @@ color: var(--text);
   width: 100%;
   border-radius: 5px;
   box-shadow: 2px 3px 4px rgba(255, 255, 255, 0.5);
-  
 }
 
-
-
-
-@media screen and (max-device-width:450px) 
-{
-
-  .logo img
-{
-  width: 12%;
-  
-
+.form {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  font-family: retro;
+  align-items: center;
+  margin-bottom: 50px;
 }
+
+.feedback {
+  height: 50px;
+  margin-bottom: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 300px;
+}
+
+@media screen and (max-device-width: 450px) {
+  .logo img {
+    width: 12%;
+  }
 
   .column {
     float: left;
     width: 306px;
     padding: 15px;
-    margin:10px;
+    margin: 10px;
     background-color: var(--button);
     border-radius: 10px;
   }
-  
-  .about_text
-  {
+
+  .about_text {
     font-size: 30px;
   }
-  
- .name
- {
-  font-size: 22px;
- }
 
- .btn {
+  .name {
+    font-size: 22px;
+  }
 
-  width:60px;
-  height: 60px;
- 
-}
-.btn i {
-  line-height: 60px;
-  font-size: 35px;
- 
-}
-.vl {
-  border-left: 3px solid var(--highlight);
-  left: 95%;
-}
+  .btn {
+    width: 60px;
+    height: 60px;
+  }
+  .btn i {
+    line-height: 60px;
+    font-size: 35px;
+  }
+  .vl {
+    border-left: 3px solid var(--highlight);
+    left: 95%;
+  }
 
-.intro h4
-{
-  font-size: 30px;
-}
+  .intro h4 {
+    font-size: 30px;
+  }
 
-.intro h3
-{
-  font-size: 30px;
-}
-.intro h1 
-{
-  font-size: 40px;
-}
+  .intro h3 {
+    font-size: 30px;
+  }
+  .intro h1 {
+    font-size: 40px;
+  }
 
-.main h2
-{
-  font-size: 30px;
-}
+  .main h2 {
+    font-size: 30px;
+  }
 
-.size{
-  font-size: 25px;
-}
+  .size {
+    font-size: 25px;
+  }
 
-li
-{
-  font-size: 20px;
-  line-height: 32px;
-  
-}
-
+  li {
+    font-size: 20px;
+    line-height: 32px;
+  }
 }
