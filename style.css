@@ -148,6 +148,10 @@ vertical-align: middle;
 
 }
 
+.hidden {
+  display: none;
+
+}
 
 .btn:hover {
   transform: scale(1.1);
