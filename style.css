@@ -16,6 +16,11 @@ html {
   max-width: 1000px;
   margin: auto;
   background: var(--background);
+  background-image: url("https://img.freepik.com/free-photo/mountains-fullmoon_198169-78.jpg?w=2000&t=st=1709628620~exp=1709629220~hmac=b69cada3ff9550c1fa738c193714a27166cd7c19c39f3f5bb9ff14fa5510514b");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 ul {
@@ -74,7 +79,7 @@ li a:hover {
 .top {
   border-radius: 5px;
   padding: 10px;
-  background-color: var(--button);
+  /* background-color: var(--button); */
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   background-repeat: none;
   object-fit: fill;
@@ -226,7 +231,12 @@ li a:hover {
   width: 22.99%;
   padding: 15px;
   margin: 10px;
-  background-color: var(--button);
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.4
+  ); /* last parameter is for transparency or opacity */
   border-radius: 10px;
 }
 
@@ -363,7 +373,7 @@ h2 {
 .experience {
   position: relative;
   padding: 50px;
-  background-color: var(--button);
+  /* background-color: var(--button); */
   border-radius: 5px;
   color: var(--text);
 }
@@ -411,7 +421,7 @@ h2 {
   font-family: "acumin-pro", "Acumin Pro", "Helvetica Neue", Helvetica, Arial,
     sans-serif;
   font-size: 20px;
-  background-color: var(--button);
+  background-color:  rgba( 0, 0, 0, 0.4 );
   color: var(--highlight);
   border-radius: 20px;
   display: inline-block;
@@ -513,6 +523,7 @@ h2 {
   text-align: center;
   border-radius: 10px;
   width: 300px;
+  color: var(--highlight);
 }
 
 @media screen and (max-device-width: 450px) {
