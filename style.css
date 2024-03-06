@@ -6,7 +6,7 @@
 
 /* variable color palette */
 :root {
-  --background: #31333b;
+  --background: #000000;
   --text: #f8f8f9;
   --highlight: #f0bf6c;
   --button: #3d3e42;
@@ -15,12 +15,11 @@
 html {
   max-width: 1000px;
   margin: auto;
-  background: var(--background);
-  background-image: url("https://img.freepik.com/free-photo/mountains-fullmoon_198169-78.jpg?w=2000&t=st=1709628620~exp=1709629220~hmac=b69cada3ff9550c1fa738c193714a27166cd7c19c39f3f5bb9ff14fa5510514b");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: var(--background);
 }
 
 ul {
@@ -238,6 +237,7 @@ li a:hover {
     0.4
   ); /* last parameter is for transparency or opacity */
   border-radius: 10px;
+  border:1px solid var(--highlight);
 }
 
 .column:hover {
@@ -373,6 +373,7 @@ h2 {
 .experience {
   position: relative;
   padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
   /* background-color: var(--button); */
   border-radius: 5px;
   color: var(--text);
@@ -524,124 +525,6 @@ h2 {
   border-radius: 10px;
   width: 300px;
   color: var(--highlight);
-}
-
-@media screen and (max-device-width: 450px) {
-  .logo img {
-    width: 12%;
-  }
-
-  .column {
-    float: left;
-    width: 306px;
-    padding: 15px;
-    margin: 10px;
-    background-color: var(--button);
-    border-radius: 10px;
-  }
-
-  .about_text {
-    font-size: 30px;
-  }
-
-  .name {
-    font-size: 22px;
-  }
-
-  .btn {
-    width: 60px;
-    height: 60px;
-  }
-  .btn i {
-    line-height: 60px;
-    font-size: 35px;
-  }
-  .vl {
-    border-left: 3px solid var(--highlight);
-    left: 95%;
-  }
-
-  .intro h4 {
-    font-size: 30px;
-  }
-
-  .intro h3 {
-    font-size: 30px;
-  }
-  .intro h1 {
-    font-size: 40px;
-  }
-
-  .main h2 {
-    font-size: 30px;
-  }
-
-  .size {
-    font-size: 25px;
-  }
-
-  li {
-    font-size: 20px;
-    line-height: 32px;
-  }
-}
-
-@media screen and (max-device-width: 1024px) {
-  .logo img {
-    width: 12%;
-  }
-
-  .column {
-    float: left;
-    width: 390px;
-    padding: 15px;
-    margin: 10px;
-    background-color: var(--button);
-    border-radius: 10px;
-  }
-
-  .about_text {
-    font-size: 18px;
-  }
-
-  .name {
-    font-size: 22px;
-  }
-
-  .btn {
-    width: 50px;
-    height: 50px;
-  }
-  .btn i {
-    line-height: 50px;
-    font-size: 25px;
-  }
-  .vl {
-    border-left: 3px solid var(--highlight);
-    left: 95%;
-  }
-
-  .intro h4 {
-    font-size: 30px;
-  }
-
-  .intro h3 {
-    font-size: 30px;
-  }
-  .intro h1 {
-    font-size: 40px;
-  }
-
-  .main h2 {
-    font-size: 30px;
-  }
-
-  .size {
-    font-size: 25px;
-  }
-
-  li {
-    font-size: 20px;
-    line-height: 32px;
-  }
+  border: 2px solid var(--highlight);
+  
 }
