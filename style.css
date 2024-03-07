@@ -528,3 +528,63 @@ h2 {
   border: 2px solid var(--highlight);
   
 }
+
+@media screen and (max-device-width: 450px) {
+  .logo img {
+    width: 12%;
+  }
+
+  .column {
+    float: left;
+    width: 306px;
+    padding: 15px;
+    margin: 10px;
+    background-color: var(--button);
+    border-radius: 10px;
+  }
+
+  .about_text {
+    font-size: 30px;
+  }
+
+  .name {
+    font-size: 22px;
+  }
+
+  .btn {
+    width: 60px;
+    height: 60px;
+  }
+  .btn i {
+    line-height: 60px;
+    font-size: 35px;
+  }
+  .vl {
+    border-left: 3px solid var(--highlight);
+    left: 95%;
+  }
+
+  .intro h4 {
+    font-size: 30px;
+  }
+
+  .intro h3 {
+    font-size: 30px;
+  }
+  .intro h1 {
+    font-size: 40px;
+  }
+
+  .main h2 {
+    font-size: 30px;
+  }
+
+  .size {
+    font-size: 25px;
+  }
+
+  li {
+    font-size: 20px;
+    line-height: 32px;
+  }
+}
