@@ -227,21 +227,60 @@ li a:hover {
 
 .column {
   float: left;
-  width: 22.99%;
-  padding: 15px;
-  margin: 10px;
+  padding: 30px;
+  margin: 35px;
   background-color: rgba(
     0,
     0,
     0,
     0.4
   ); /* last parameter is for transparency or opacity */
-  border-radius: 10px;
+  border-radius: 100%;
   border:1px solid var(--highlight);
+  width: 161px;
+  height: 161px;
+
+  position: relative;
 }
 
+.html-circle-skill{
+  fill: none;
+  stroke:lightcoral;
+  stroke-width: 5px;
+  stroke-dasharray: 472;
+  stroke-dashoffset: 472;
+  animation: anim 2s linear forwards;
+}
+
+.html-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.css-circle-skill{
+  fill: none;
+  stroke:lightblue;
+  stroke-width: 5px;
+  stroke-dasharray: 520;
+  stroke-dashoffset: 520;
+  animation: anim 2s linear forwards;
+}
+
+.css-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+@keyframes anim {
+  100% {
+    stroke-dashoffset: 165;
+  }
+}
+
+
 .column:hover {
-  background-color: var(--highlight);
+  
 }
 
 /* Clearfix (clear floats) */
@@ -251,17 +290,9 @@ li a:hover {
   display: table;
 }
 .img {
-  width: 80px;
-  margin-top: 20px;
+  width: 100px;
 }
 
-.img:hover {
-  z-index: 1;
-  transform: rotate(6deg) scale(1.5);
-  -webkit-transform: rotate(6deg) scale(1.5);
-  -moz-transform: rotate(6deg) scale(1.5);
-  -ms-transform: rotate(6deg) scale(1.5);
-}
 
 .name {
   text-align: center;
@@ -505,7 +536,8 @@ h2 {
   margin-top: 20px;
   vertical-align: middle;
   width: 100%;
-  border-radius: 5px;
+  border-radius: 30px;
+  border: 2px solid var(--highlight);
   box-shadow: 2px 3px 4px rgba(255, 255, 255, 0.5);
 }
 
