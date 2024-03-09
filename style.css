@@ -245,10 +245,10 @@ li a:hover {
 
 .html-circle-skill{
   fill: none;
-  stroke:lightcoral;
+  stroke:#E44D26;
   stroke-width: 5px;
-  stroke-dasharray: 472;
-  stroke-dashoffset: 472;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
   animation: anim 2s linear forwards;
 }
 
@@ -257,16 +257,171 @@ li a:hover {
   top: 0%;
   left: 0%;
 }
+
+
 .css-circle-skill{
   fill: none;
-  stroke:lightblue;
+  stroke:#1572B6;
   stroke-width: 5px;
-  stroke-dasharray: 520;
-  stroke-dashoffset: 520;
+  stroke-dasharray: 530;
+  stroke-dashoffset: 530;
   animation: anim 2s linear forwards;
 }
 
 .css-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.js-circle-skill{
+  fill: none;
+  stroke:#FFDA3E;
+  stroke-width: 5px;
+  stroke-dasharray: 400;
+  stroke-dashoffset: 400;
+  animation: anim 2s linear forwards;
+}
+
+.js-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.unity-circle-skill{
+  fill: none;
+  stroke:#6D0000;
+  stroke-width: 5px;
+  stroke-dasharray: 560;
+  stroke-dashoffset: 560;
+  animation: anim 2s linear forwards;
+}
+
+.unity-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.java-circle-skill{
+  fill: none;
+  stroke:#EA2D2E;
+  stroke-width: 5px;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: anim 2s linear forwards;
+}
+
+.java-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.github-circle-skill{
+  fill: none;
+  stroke:#8800EA;
+  stroke-width: 5px;
+  stroke-dasharray: 550;
+  stroke-dashoffset: 550;
+  animation: anim 2s linear forwards;
+}
+
+.github-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.mysql-circle-skill{
+  fill: none;
+  stroke:#5C86A0;
+  stroke-width: 5px;
+  stroke-dasharray: 560;
+  stroke-dashoffset: 560;
+  animation: anim 2s linear forwards;
+}
+
+.mysql-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.ubuntu-circle-skill{
+  fill: none;
+  stroke:#FF680D;
+  stroke-width: 5px;
+  stroke-dasharray: 330;
+  stroke-dashoffset: 330;
+  animation: anim 2s linear forwards;
+}
+
+.ubuntu-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+
+
+.python-circle-skill
+{
+  fill: none;
+  stroke:#FFCA1D;
+  stroke-width: 5px;
+  stroke-dasharray: 280;
+  stroke-dashoffset: 280;
+  animation: anim 5s linear forwards;
+  animation-iteration-count: infinite;
+}
+
+.python-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.adobe-circle-skill{
+  fill: none;
+  stroke:#FE7903;
+  stroke-width: 5px;
+  stroke-dasharray: 590;
+  stroke-dashoffset: 590;
+  animation: anim 2s linear forwards;
+}
+
+.adobe-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+.jira-circle-skill{
+  fill: none;
+  stroke:#2185FF;
+  stroke-width: 5px;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+  animation: anim 2s linear forwards;
+}
+
+.jira-circle-skill {
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+.c-circle-skill{
+  fill: none;
+  stroke:#68217A;
+  stroke-width: 5px;
+  stroke-dasharray: 570;
+  stroke-dashoffset: 570;
+  animation: anim 2s linear forwards;
+}
+
+.c-circle-skill {
   position: absolute;
   top: 0%;
   left: 0%;
