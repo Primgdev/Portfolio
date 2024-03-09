@@ -39,3 +39,30 @@ function validate(event) {
     }
   }
 }
+async function submitForm() {
+
+  const firstName = document.getElementById("firstname").value;
+  const lastName = document.getElementById("lastname").value;
+  const email = document.getElementById("email").value;
+  const subject = document.getElementById("subject").value;
+  const message = document.getElementById("message").value;
+  
+  await sendEmail(email, subject, message);
+  console.log('sendEmail', sendEmail);
+  }
+  
+  function sendEmail(email, subject, message)
+  {
+    console.log('sendEmail', email, subject, message);
+    Email.send(
+      {
+        Host:"smtp.elasticemail.com",
+        Username : "pritamsitesupp@gmail.com",
+        Password : '52475D63EF2859E671B800355AB2B27BFCBD',
+        To : email,
+        From : 'pritamsitesupp@gmail.com',
+        Subject : subject,
+        Body : message
+      }).then(message => console.log(message))
+  }
+

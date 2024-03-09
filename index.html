@@ -2,6 +2,7 @@
 <title> Pritam's Portfolio </title>
 
 <script src="script.js"></script>
+<script src="https://smtpjs.com/v3/smtp.js"></script>
 <link rel="icon" href="/images/favicon.ico" >
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -244,7 +245,7 @@
         <input id="email" name="email" type="text" class="feedback" placeholder="Email address" onblur="validate(this)">
         <input id="subject" name="subject" class="feedback" placeholder="Subject of this message" onblur="validate(this)">
         <textarea id="message" class="feedback" placeholder=" Say something" style="height: 150px;"></textarea>
-        <input type="submit" class="feedback" placeholder ="Send Message" style="color: #3d3e42; background-color: #F0BF6C; font-size: large;" onClick = "handleSubmit()">
+        <input type="submit" class="feedback" placeholder ="Send Message" style="color: #3d3e42; background-color: #F0BF6C; font-size: large;" onClick =  "submitForm()">
 
 
       </div>
@@ -268,3 +269,5 @@
 </body>
 
 </html>
+
+
